@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Üzemanyag</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   
+    <div id="nagy" class="container">
+    <h1>Költségtérítés</h1>
+    <div id="div1" class="mt-4 mb-3 m-3">
+        <h3>Üzemanyag típusa</h3>
+        <div >
+            <input type="radio" id="uzem1" name="uzemanyag">
+            <label for="uzem1">Benzin</label>
+        </div>
+        <div >
+            <input type="radio" id="uzem2" name="uzemanyag">
+            <label for="uzem2">Gázolaj</label>
+        </div>
+        <div>
+            <input type="radio" id="uzem3" name="uzemanyag">
+            <label for="uzem3">Elektromos</label>
+        </div>
+        <div>
+            <input type="radio" id="uzem4" name="uzemanyag">
+            <label for="uzem4">LPG</label>
+        </div>
+    </div>
+    <div id="div1" class="mt-4 mb-3 m-3">
+        <h3>Amortizációs térítési díj</h3>
+        <div>
+            <input type="radio" id="amor1" name="amor">
+            <label for="amor1">18 (Ft/km)</label>
+        </div>
+        <div>
+            <input type="radio" id="amor2" name="amor">
+            <label for="amor2">30 (Ft/km)</label>
+        </div>
+    </div>   
+        <div class="mb-3"></div>
+    <div class="col-2 m-3">
+        <div class="p-2">
+            <input type="text" id="ft">
+            <label for="ft">Ft/l</label>
+        </div>
+        <div class="p-2">
+            <select name="" id="">
+                <option value="">1000 cm3</option>
+                <option value="">1001-1500 cm3</option>
+                <option value="">1501-2000 cm3</option>
+                <option value="">2001-3000 cm3</option>
+                <option value="">3001 cm3</option>
+                <option value="">1500 cm3</option>
+                <option value="">1501-2000 cm3</option>
+                <option value="">2001-3000 cm3</option>
+                <option value="">3001 cm3</option>
+            </select>
+        </div>
+        <div class="p-2">
+            <label for="rend">Rendszám: </label>
+            <input type="text" name="" id="rend">
+        </div>
+        <div class="p-2">
+            <label for="auto">Gyártó típus: </label>
+            <input type="text" id="auto">
+        </div>
+        <div class="p-2">
+            <label for="ut">Honnan hova: </label>
+            <input type="text" id="ut">
+        </div>
+        
+        <div class="p-2">
+            <label for="tav">Megtett táv: </label>
+            <input type="text"><label for="tav">km</label>
+        </div>
+        <div class="p-2">
+        <button type="button">Számítás</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
