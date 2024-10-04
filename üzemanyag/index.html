@@ -10,18 +10,18 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-   
+   <form action="">
     <div id="nagy" class="container">
     <h1>Költségtérítés</h1>
     <div id="div1" class="mt-4 mb-3 m-3">
         <h3>Üzemanyag típusa</h3>
         <div >
-            <input type="radio" id="uzem1" name="uzemanyag">
-            <label for="uzem1">Benzin</label>
+            <input type="radio" id="benzin" name="uzemanyag">
+            <label for="benzin">Benzin</label>
         </div>
         <div >
-            <input type="radio" id="uzem2" name="uzemanyag">
-            <label for="uzem2">Gázolaj</label>
+            <input type="radio" id="diesel" name="uzemanyag">
+            <label for="diesel">Diesel</label>
         </div>
         <div>
             <input type="radio" id="uzem3" name="uzemanyag">
@@ -50,16 +50,9 @@
             <label for="ft">Ft/l</label>
         </div>
         <div class="p-2">
-            <select name="" id="">
-                <option value="">1000 cm3</option>
-                <option value="">1001-1500 cm3</option>
-                <option value="">1501-2000 cm3</option>
-                <option value="">2001-3000 cm3</option>
-                <option value="">3001 cm3</option>
-                <option value="">1500 cm3</option>
-                <option value="">1501-2000 cm3</option>
-                <option value="">2001-3000 cm3</option>
-                <option value="">3001 cm3</option>
+            <label for="cm3Input">Motor</label>
+            <select name="cm3Input" id="cm3Input">
+                
             </select>
         </div>
         <div class="p-2">
@@ -80,9 +73,10 @@
             <input type="text"><label for="tav">km</label>
         </div>
         <div class="p-2">
-        <button type="button">Számítás</button>
+        <button type="submit" disabled = "true">Számítás</button>
         </div>
     </div>
 </div>
+</form>
 </body>
 </html>
