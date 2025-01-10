@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "type":"modul",
+    "nodemon": "^3.1.9",
+    "start": "node app.js"
   }
 }
